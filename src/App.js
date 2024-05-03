@@ -30,7 +30,7 @@ function App() {
       {isUser ? <p>{message}</p>:
       <><p>{message}</p><form onSubmit={checkUser}>
           <div>
-            <label htmlFor='username'>UserName: </label>
+            <label htmlFor='username'>Username: </label>
             <input id='username' type='text' placeholder='username' value={username} onChange={handleUser} required />
           </div>
           <div>
